@@ -1,0 +1,73 @@
+// Exercise 1: Calculate the Sum of Two Numbers
+
+a + b = c
+
+num1 + num2 = sum
+print sum
+
+ask for 2 numbers 
+add the 2 number together 
+print on the screen the sum of those 2 numbers
+
+
+// Exercise 2: Check if a Number is Even or Odd
+
+ask for number
+if number ends in .0 when divided by 2, 
+	print "even"
+if number ends in .5 when divided by 2, 
+	print "odd"
+
+// Exercise 3: 
+Write pseudo code that will perform the following.   
+a) Read in 5 separate numbers.   
+b) Calculate the average of the five numbers.
+c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
+d) Write out the results found from steps b and c with a message describing what they are
+ 
+a)
+ask for 5 numbers
+	define numbers as "a, b, c, d, e" 
+b)
+add a + b + c + d + e
+	define total as "x"
+divide x by 5
+	define total as "average"
+c)
+check if a > b
+	if true check if a > c
+		if true check if a > d
+			if true check if a > e
+				if true define a as "maximum"
+	if false check if b > c
+		if true check if b > d
+			if true check if b > e
+				if true define b as "maximum"
+		if false check if c > d
+			if true check if c > e
+				if true define c as "maximum"
+			if false check if d > e
+				if true define d as "maximum"
+				if false define e as "maximum"
+check if a < b
+	if true check if a < c
+		if true check if a < d
+			if true check if a < e
+				if true define a as "minimum"
+	if false check if b < c
+		if true check if b < d
+			if true check if b < e
+				if true define b as "minimum"
+		if false check if c < d
+			if true check if c < e
+				if true define c as "minimum"
+			if false check if d < e
+				if true define d as "minimum"
+				if false define e as "minimum"
+d)
+print "average" with message "this is the average of the five numbers a,b,c,d,e"
+print "maximum" with message "this is the largest number of the five numbers a,b,c,d,e"
+print "minimum" with the message "this is the smallest number of the five numbers a,b,c,d,e"
+
+
+-- END --
